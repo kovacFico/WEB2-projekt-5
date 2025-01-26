@@ -55,6 +55,7 @@ export default {
 
             this.recipe = { name: "", ingredients: [""], instructions: "" };
             this.$emit("alert-add-recipe", 'Recept je uspješno dodan!');
+            window.location.href = "/";
         }
     }
     
